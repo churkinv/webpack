@@ -1,3 +1,3 @@
 {
-    "present":["latest"]
+    "presets":["es2015"]
 }
