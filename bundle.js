@@ -67,7 +67,11 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-document.write("Welcome");
+// we use the following command  to bundle our file to bundle.js:
+// webpack ./fileName.js bundle.js  
+
+
+document.write("Welcome, second time");
 
 console.log("App loaded");
 
