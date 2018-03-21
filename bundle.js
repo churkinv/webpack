@@ -67,18 +67,35 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+//This global JS provided to all aps
+
+console.log("logging from the ustils.js file");
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // we use the following command  to bundle our file to bundle.js:
 // webpack ./fileName.js bundle.js  
 // or if you have webpack configuration file, just execute in terminal:
 // webpack
-__webpack_require__(1);
+__webpack_require__(3);
 
 document.write("Welcome, Watch !!! time");
 
 console.log("App loaded");
 
 /***/ }),
-/* 1 */
+/* 3 */
 /***/ (function(module, exports) {
 
 console.log("login loaded");
