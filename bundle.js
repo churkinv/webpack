@@ -65,15 +65,23 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 // we use the following command  to bundle our file to bundle.js:
 // webpack ./fileName.js bundle.js  
+// or if you have webpack configuration file, just execute in terminal:
+// webpack
+__webpack_require__(1);
 
-
-document.write("Welcome, second time");
+document.write("Welcome, Watch !!! time");
 
 console.log("App loaded");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+console.log("login loaded");
 
 /***/ })
 /******/ ]);
